@@ -1,8 +1,13 @@
+import HelloWorld from "components/HelloWorld";
 import React from "react";
 import "./App.css";
 
 function App() {
-  return <p>heello world</p>;
+  return (
+    <div>
+      <HelloWorld />
+    </div>
+  );
 }
 
 export default App;
