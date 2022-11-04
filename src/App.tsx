@@ -1,12 +1,24 @@
+import { Global } from "@emotion/react";
 import HelloWorld from "components/HelloWorld";
 import React from "react";
-import "./App.css";
 
 function App() {
   return (
-    <div>
+    <>
+      <Global
+        styles={{
+          "*": {
+            margin: 0,
+            padding: 0,
+          },
+          "#root": {
+            backgroundColor: "#242424",
+            height: "100vh",
+          },
+        }}
+      />
       <HelloWorld />
-    </div>
+    </>
   );
 }
 
