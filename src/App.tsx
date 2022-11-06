@@ -1,5 +1,5 @@
 import { Global } from "@emotion/react";
-import HelloWorld from "components/HelloWorld";
+import Header from "components/Header/Header";
 import React from "react";
 
 function App() {
@@ -7,6 +7,9 @@ function App() {
     <>
       <Global
         styles={{
+          ":root": {
+            "--color-one": "rgba(255, 255, 255, 0.85)",
+          },
           "*": {
             margin: 0,
             padding: 0,
@@ -17,7 +20,7 @@ function App() {
           },
         }}
       />
-      <HelloWorld />
+      <Header />
     </>
   );
 }

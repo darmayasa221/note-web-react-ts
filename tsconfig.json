@@ -18,6 +18,7 @@
     "jsxImportSource": "@emotion/react",
     "baseUrl": ".",
     "paths": {
+      "globalStyle/*": ["src/GlobalStyle/*"],
       "components/*": ["src/components/*"]
     }
   },
