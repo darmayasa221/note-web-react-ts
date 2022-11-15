@@ -1,5 +1,6 @@
 import { Global } from "@emotion/react";
 import Header from "components/Header/Header";
+import Home from "components/Home/Home";
 import React from "react";
 
 function App() {
@@ -18,9 +19,17 @@ function App() {
             backgroundColor: "#242424",
             height: "100vh",
           },
+          main: {
+            boxSizing: "border-box",
+            height: "100%",
+            paddingTop: "90px",
+          },
         }}
       />
       <Header />
+      <main>
+        <Home />
+      </main>
     </>
   );
 }
