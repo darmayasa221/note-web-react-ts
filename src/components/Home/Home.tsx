@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 import mq from "globalStyle/MediaQuery";
 import React from "react";
-import HomeBody from "./HomeBody";
+import HomeBody from "./HomeBody/HomeBody";
 import HomeHeader from "./HomeHeader";
 
 const HomeContainer = styled.div({

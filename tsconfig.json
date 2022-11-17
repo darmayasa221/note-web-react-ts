@@ -19,6 +19,7 @@
     "baseUrl": ".",
     "paths": {
       "globalStyle/*": ["src/GlobalStyle/*"],
+      "model/*": ["src/model/*"],
       "components/*": ["src/components/*"]
     }
   },

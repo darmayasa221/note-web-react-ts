@@ -8,6 +8,10 @@ export default defineConfig({
   resolve: {
     alias: [
       {
+        find: "model",
+        replacement: path.resolve(__dirname, "src/model"),
+      },
+      {
         find: "components",
         replacement: path.resolve(__dirname, "src/components"),
       },
